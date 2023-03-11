@@ -9,5 +9,5 @@ function setup() {
 
 function draw() {
   fill(mouseX, mouseY, mouseX + mouseY, 20);
-  ellipse(mouseX, mouseY, abs(pmouseX - mouseX) * 2, abs(pmouseX - mouseX) * 2);
+  ellipse(mouseX, mouseY, abs(pmouseX - mouseX) * 3, abs(pmouseX - mouseX) * 3);
 }
